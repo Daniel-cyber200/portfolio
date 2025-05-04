@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>card</title>
+  <link rel="stylesheet" href="card.css">
+  <script src="https://kit.fontawesome.com/56564b878b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+  <h1>Portfolio</h1>
+  <nav>
+    <a href="#header">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#Portfolio">Project</a>
+    <a href="#contact">Contact</a>
+    <i class="fa-solid fa-circle-xmark"></i>
+    <i class="fa-solid fa-bars"></i>
+  </nav>
+</header>
+<main class="container">
+  <div class="up">
+  <p class="name">Hello, my name is <span>Daniel Makuochukwu</span></p>
+  <p class="skill">I'm a <span class="typed-text"></span><span class="cursor typing">&nbsp;</span></p>
+  <p class="text">This is my Portfolio where you can see my works/project,<br>
+  you can go through them and make your choice.</p>
+</div>
+<!-- <button>Resume</button> -->
+<div>
+  <img src="Google/flier.jpg" alt="pix" class="image">
+</div>
+</main>
+<!-- ------------about--------- -->
+<div id="about">
+  <div class="container-2">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="Google/flier.jpg">
+      </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>
+            My name is Daniel. Am a Frontend developer, Graphic designer and an Ethical hacker. <br>
+           Went to high school at Gilford Memorial College Aba. A student of  Federal Univesity of Technology Owerri(FUTO). <br>
+           My objective is to secure a challanging role in software development, leveraging technical expertise and 
+           innovation
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('daniel')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="daniel">
+            <ul>
+              <li><span>Graphic Designing</span><br>Photo designing, flex designing, banner.</li>
+              <li><span>software Developer</span><br>Build websites</li>
+              <li><span>Cyber Security</span><br>Penetration testing, ethical haking, security analyst</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <p>I'm excited to apply for this role, and although I don't have direct experience,<br> I've 
+              developed strong skills in (Graphic design, Frontend development and Security analyst) through 
+              personal projects/volunteer work/online courses. <br> I'm eager to learn and grow with your 
+              organization.</p>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>High school graduate</li>
+              <li>Bachelor of science in computer science,<br> Federal Univesity of Owerri(FUTO).</li>
+              <!-- <li></li> -->
+            </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- -----------services------- -->
+ <div id="services">
+  <div class="container-3">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Graphic Design</h2>
+        <p>Elevate your brand's visual identity with our expert graphic design services. <br>
+        From logos to brochures, we craft stunnting designs that capture your unique story </p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Frontend Dev</h2>
+        <p>Get fast, reliable, and scalable frontend development services that meet your business&nbsp;needs. <br>
+        With expertise in HTML, CSS, JAVASCRIPT, and REACT, I'll help you build a strong online presence
+      that drives growth and success.</p>
+          <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-hackerrank"></i>
+        <h2>Security analyst</h2>
+        <p>Safeguard your business from cyber threats with expert security analyst services. <br>
+        I identity vulnerabilities, assess risks, and implement robust security measures to protect your
+      your digital assets.</p>
+          <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!-- -------portfolio------ -->
+ <div id="Portfolio">
+  <div class="container-4">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+      <img src="Google/flier.jpg">
+      <div class="layer">
+        <h3>Developers Hub</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Atque a dignissimos, minima nobis doloribus, 
+          rem tempore similique vel repellat soluta illum voluptate minus, 
+          cumque voluptatem vitae aut voluptas autem sunt?</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="Google/flier.jpg">
+      <div class="layer">
+        <h3>Developers Hub</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Atque a dignissimos, minima nobis doloribus, 
+          rem tempore similique vel repellat soluta illum voluptate minus, 
+          cumque voluptatem vitae aut voluptas autem sunt?</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="Google/flier.jpg">
+      <div class="layer">
+        <h3>Developers Hub</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Atque a dignissimos, minima nobis doloribus, 
+          rem tempore similique vel repellat soluta illum voluptate minus, 
+          cumque voluptatem vitae aut voluptas autem sunt?</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+ </div>
+
+ <!-- ----------content--------- -->
+<div id="contact">
+  <div class="container-2">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>contact@mbamaramakuochukwudaniel.com</p>
+        <p><i class="fa-solid fa-phone"></i>09137786629</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+        <a href="#"  class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="your name" required>
+          <input type="email" name="Email" placeholder="your email" required>
+          <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+          <button type="submit" class="btn btn2">submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright &copy; Daniel 2024</p>
+  </div>
+</div>
+  <script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+
+}
+  </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyhwrN-CTL1WUqkjrgILH-d9utYh4PHPuwzogXrSSB7REkamjtDRNdmuRthdF2dA7E0Rg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent successfully!"
+        setTimeout(function () {
+          msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+const typedTextSpan = document.querySelector(".typed-text");
+
+  const textArray = ["Graphic designer","Frontend developer","Security analyst"]
+  const typingDelay = 200;
+  const erasingDelay = 100;
+  const newTextDelay = 2000;
+  let textArrayIndex = 0;
+  let charIndex = 0;
+
+  function type() {
+    if(charIndex < textArray[textArrayIndex].length){
+      typedTextSpan,textContent += textArray[textArrayIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, typingDelay);
+    }
+    else{
+      setTimeout(erase, newTextDelay);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typedTextSpan.textContent = textArray[textArrayIndex].substring(0,charIndex-1);
+      charIndex--;
+      setTimeout(erase, erasingDelay);
+    }
+    else{
+      textArrayIndex++;
+      if(textArrayIndex>=textArray.length) textArrayIndex=0;
+      setTimeout(type, typingDelay + 1100);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+   setTimeout(type, newTextDelay + 250); 
+  });
+</script>
+</body>
+</html>
