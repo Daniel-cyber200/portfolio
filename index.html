@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <!-- <div class="logo">
+      <img src="images/logo.png" alt="Daniel's logo"> -->
+    <h1>Portfolio</h1>
+    <!-- </div> -->
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+      <div class="nav-close" id="nav-close"><i class="fas fa-times"></i></div>
+    </nav>
+    <div class="nav-toggle" id="nav-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <main id="home" class="hero container">
+    <div class="hero-content">
+      <p class="name">Hello, my name is <span>Daniel Makuochukwu</span></p>
+      <p class="skill">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+      <p class="text">This is my Portfolio where you can see my works/projects,<br>
+      you can go through them and make your choice.</p>
+    </div>
+    <div class="hero-image">
+      <img src="images/Screenshot_20250806-095125_2.png" alt="Daniel's Profile Picture">
+    </div>
+  </main>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="images/Screenshot_20250806-095130_2.png" alt="About Daniel">
+        </div>
+        <div class="about-text">
+          <p>
+            My name is Daniel. I'm a Frontend developer, Graphic designer and an Ethical hacker. <br>
+            Went to high school at Gilford Memorial College Aba. A student of Federal University of Technology Owerri (FUTO). <br>
+            My objective is to secure a challenging role in software development, leveraging technical expertise and innovation.
+          </p>
+
+          <div class="tab-container">
+            <div class="tab-buttons">
+              <button class="tab-btn active" data-tab="skills">Skills</button>
+              <button class="tab-btn" data-tab="experience">Experience</button>
+              <button class="tab-btn" data-tab="education">Education</button>
+            </div>
+            <div class="tab-content active" id="skills">
+              <ul>
+                <li><span>Graphic Designing</span><br>Photo designing, flex designing, banner.</li>
+                <li><span>Software Developer</span><br>Build websites</li>
+                <li><span>Cyber Security</span><br>Penetration testing, ethical hacking, security analyst</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <p>I'm excited to apply for this role, and although I don't have direct experience, I've 
+                developed strong skills in (Graphic design, Frontend development and Security analyst) through 
+                personal projects/volunteer work/online courses. I'm eager to learn and grow with your 
+                organization.</p>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li>High school graduate</li>
+                <!-- <li>Bachelor of science in computer science,<br> Federal University of Owerri (FUTO).</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">My Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Graphic Design</h3>
+          <p>Elevate your brand's visual identity with our expert graphic design services. From logos to brochures, we craft stunning designs that capture your unique story.</p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-code"></i>
+          <h3>Frontend Dev</h3>
+          <p>Get fast, reliable, and scalable frontend development services that meet your business needs. With expertise in HTML, CSS, JavaScript, and React.</p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Security Analyst</h3>
+          <p>Safeguard your business from cyber threats with expert security analyst services. I identify vulnerabilities, assess risks, and implement robust security measures.</p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">My Work</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/flex.jpg" alt="Project 1">
+          <div class="portfolio-overlay">
+            <h3>Branding Packages</h3>
+            <p>Complete visual identity for a startup including logo, business cards, and stationery</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/IMG_20250806_171144_248.jpg" alt="Project 2">
+          <div class="portfolio-overlay">
+            <h3>E-commerce Site</h3>
+            <p>Online store with secure payment integration.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/IMG_20250806_130720_105.jpg" alt="Project 3">
+          <div class="portfolio-overlay">
+            <h3>Security Dashboard</h3>
+            <p>Analytics dashboard for network security monitoring.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn view-more">See more</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i>contact@mbamaramakuochukwudaniel.com</p>
+          <p><i class="fas fa-phone"></i>09137786629</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <a href="images/Mbamara_Daniel_CV_with_Portfolio (1).pdf" class="btn download-btn">Download CV</a>
+        </div>
+        <form class="contact-form" name="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Daniel Makuochukwu. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
