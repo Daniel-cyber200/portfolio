@@ -1,4 +1,3 @@
- const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxF_syBMYMvq75lVuu25bnc9iuvmutSj_XcQgyXxuBwnrcs8wB_y3IEGir_ks1sgAvfaA/exec';
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile Menu Toggle
   const navToggle = document.getElementById('nav-toggle');
@@ -76,21 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Set current year in footer
   document.getElementById('year').textContent = new Date().getFullYear();
-
- // Create form data
-      const formData = new FormData();
-      formData.append('name', name);
-      formData.append('email', email);
-      formData.append('message', message);
-      formData.append('timestamp', new Date().toISOString());
-      
-      try {
-        // Send to Google Sheets via Google Apps Script
-        const response = await fetch(GOOGLE_SCRIPT_URL, {
-          method: 'POST',
-          mode: 'no-cors', // Important for Google Apps Script
-          body: formData
-        });
 
   // Form submission
   const form = document.forms['contact-form'];
