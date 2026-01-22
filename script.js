@@ -1,3 +1,4 @@
+ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbybZQIYVW0ZZeHVOKJwpUcrSjjpgFiwnbKNJ545ILvxYnMXDiblFHjeaFX1PTfuX-x2Bw/exec';
 document.addEventListener('DOMContentLoaded', function() {
   // Mobile Menu Toggle
   const navToggle = document.getElementById('nav-toggle');
@@ -101,4 +102,5 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
 });
